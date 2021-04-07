@@ -8,8 +8,8 @@ export interface Farm extends FarmConfig {
   tokenPriceVsQuote?: BigNumber
   poolWeight?: number
   depositFeeBP?: number
-  eggPerBlock?: number
-    userData?: {
+  oasisPerBlock?: number
+  userData?: {
     allowance: BigNumber
     tokenBalance: BigNumber
     stakedBalance: BigNumber
@@ -45,3 +45,4 @@ export interface State {
   farms: FarmsState
   pools: PoolsState
 }
+
