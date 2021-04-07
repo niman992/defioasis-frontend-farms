@@ -1,5 +1,5 @@
 @ECHO OFF
-SET /P yesno=Build and then Upload to goose-frontend? [y/n]:
+SET /P yesno=Build and then Upload to oasis-frontend? [y/n]:
 IF "%yesno%"=="y" GOTO Confirm
 IF "%yesno%"=="Y" GOTO Confirm
 GOTO End
