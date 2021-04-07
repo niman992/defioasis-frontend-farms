@@ -11,9 +11,12 @@ const GlobalStyle = createGlobalStyle`
   * {
     font-family: 'Kanit', sans-serif;
   }
+  @font-face {
+    font-family: 'Yatra One', cursive;
+    src: url(/fonts/YatraOne-Regular.ttf);
+  }
   body {
     background-color: ${({ theme }) => theme.colors.background};
-
     img {
       height: auto;
       max-width: 100%;
