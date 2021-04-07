@@ -6,7 +6,6 @@ import getLiquidityUrlPathParts from 'utils/getLiquidityUrlPathParts'
 import { Address } from 'config/constants/types'
 
 export interface ExpandableSectionProps {
-  isTokenOnly?: boolean
   bscScanAddress?: string
   removed?: boolean
   totalValueFormated?: string
@@ -26,7 +25,6 @@ const StyledLinkExternal = styled(LinkExternal)`
   color: ${({ theme }) => theme.colors.text};
   display: flex;
   align-items: center;
-
   svg {
     padding-left: 4px;
     height: 18px;
@@ -36,7 +34,6 @@ const StyledLinkExternal = styled(LinkExternal)`
 `
 
 const DetailsSection: React.FC<ExpandableSectionProps> = ({
-  isTokenOnly,
   bscScanAddress,
   removed,
   totalValueFormated,
@@ -52,12 +49,7 @@ const DetailsSection: React.FC<ExpandableSectionProps> = ({
     <Wrapper>
       <Flex justifyContent="space-between">
         <Text>{TranslateString(316, 'Stake')}:</Text>
-        <StyledLinkExternal href={
-          isTokenOnly ?
-            `https://exchange.goosedefi.com/#/swap/${tokenAddresses[process.env.REACT_APP_CHAIN_ID]}`
-            :
-          `https://exchange.goosedefi.com/#/add/${liquidityUrlPathParts}`
-        }>
+        <StyledLinkExternal href={`https://exchange.pancakeswap.finance/#/add/${liquidityUrlPathParts}`}>
           {lpLabel}
         </StyledLinkExternal>
       </Flex>
