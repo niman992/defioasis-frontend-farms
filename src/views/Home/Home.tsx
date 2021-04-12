@@ -22,7 +22,7 @@ const Hero = styled.div`
   padding-top: 48px;
   ${({ theme }) => theme.mediaQueries.lg} {
     padding-top: 116px;
-    background: url(/images/taco/taco_banner.png);
+    background: url(/images/oasis/oasis_banner.png);
     background-size: cover;
     background-position: left center, right center;
     height: 165px;
