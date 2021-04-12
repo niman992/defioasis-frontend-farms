@@ -102,7 +102,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
         </Heading>
         {tokenMode && (
             <img
-              src="/images/taco/oasis_bazaar_2.png"
+              src="/images/oasis/oasis_bazaar_2.png"
               alt="Oasis Bazaar"
               width={200}
               style={{ position: 'absolute', top: 50, right: 20 }}
