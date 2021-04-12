@@ -40,7 +40,6 @@ const ToggleWrapper = styled.div`
   justify-content: center;
   align-items: center;
   margin-right: 32px;
-
   ${Text} {
     margin-left: 8px;
   }
