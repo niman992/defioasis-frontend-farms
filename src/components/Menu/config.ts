@@ -22,14 +22,14 @@ const config: MenuEntry[] = [
     ],
   },
   {
-    label: 'Farms',
+    label: 'Oasis',
     icon: 'FarmIcon',
-    href: '/farms',
+    href: '/oasis',
   },
   {
-    label: 'Oasis',
+    label: 'Bazaar',
     icon: 'PoolIcon',
-    href: '/oasis',
+    href: '/bazaar',
   },
   // {
   //   label: 'Pools',
