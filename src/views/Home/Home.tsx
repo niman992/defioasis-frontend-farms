@@ -21,9 +21,7 @@ const Hero = styled.div`
   text-align: center;
   padding-top: 48px;
   ${({ theme }) => theme.mediaQueries.lg} {
-    padding-top: 116px;
-    background: url(/images/oasis/oasis_banner.png);
-    background-size: cover;
+    background-image: url('/images/oasis/3.png'), url('/images/oasis/3b.png');
     background-position: left center, right center;
     height: 165px;
     padding-top: 0;
@@ -57,12 +55,12 @@ const Home: React.FC = () => {
     <Page>
       <Hero>
         <Heading as="h1" size="xl" mb="24px" color="secondary">
-          <span style={{ fontFamily: 'yatra one, cursive', textTransform: 'uppercase', fontSize: '40pt' }}>
+          <span style={{ fontFamily: 'yatra one, cursive', textTransform: 'uppercase', fontSize: '60pt', color: '#A58B3C' }}>
             {TranslateString(576, 'DeFi Oasis')}
           </span>
         </Heading>
         <Text>
-          <span style={{ color: '#4BA696' }}>
+          <span style={{ color: '#A58B3C', fontFamily: 'yatra one, cursive', fontSize: '16pt' }}>
             {TranslateString(578, 'The MOST FERTILE exchange in all of Binance Smart Chain!')}
           </span>
         </Text>
