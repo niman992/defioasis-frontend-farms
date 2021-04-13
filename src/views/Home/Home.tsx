@@ -57,7 +57,7 @@ const Home: React.FC = () => {
     <Page>
       <Hero>
         <Heading as="h1" size="xl" mb="24px" color="secondary">
-          <span style={{ fontFamily: 'yatra one', textTransform: 'uppercase', fontSize: '40pt' }}>
+          <span style={{ fontFamily: 'yatra one, cursive', textTransform: 'uppercase', fontSize: '40pt' }}>
             {TranslateString(576, 'DeFi Oasis')}
           </span>
         </Heading>
