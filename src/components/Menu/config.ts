@@ -12,12 +12,12 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.defioasis.com/#/swap?outputCurrency= ', // OASIS mainnet address to be added
+        href: 'https://exchange.defioasis.finance/#/swap?outputCurrency=0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56 ', // OASIS mainnet address to be added
       },
       {
         label: 'Liquidity',
         href:
-          'https://exchange.defioasis.com/#/add/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56/ ', // OASIS mainnet address to be added
+          'https://exchange.defioasis.finance/#/add/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56/ ', // OASIS mainnet address to be added
       },
     ],
   },
@@ -66,13 +66,18 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Docs',
-        href: 'https://defioasis.gitbook.io/defioasis/',
+        href: 'https://defioasis.gitbook.io/defi-oasis/',
       },
       {
         label: 'Blog',
         href: 'https://defioasis.medium.com/',
       },
     ],
+  },
+    {
+    label: 'Forked from audited Goosedefi',
+    icon: 'AuditIcon',
+    href: 'https://www.goosedefi.com/files/hackenAudit.pdf',
   },
 ]
 
