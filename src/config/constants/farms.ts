@@ -13,7 +13,7 @@ const farms: FarmConfig[] = [
     tokenSymbol: 'OASIS',
     tokenAddresses: {
       97: '',
-      56: '',  // OASIS mainnet to be added 
+      56: '0xFeDb215c9c168456E3E4031F5B4e32DdaeF65f58',  // OASIS mainnet to be added 
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -29,7 +29,7 @@ const farms: FarmConfig[] = [
     tokenSymbol: 'OASIS',
     tokenAddresses: {
       97: '',
-      56: '',  // OASIS mainnet to be added 
+      56: '0xFeDb215c9c168456E3E4031F5B4e32DdaeF65f58',  // OASIS mainnet to be added 
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
@@ -160,7 +160,7 @@ const farms: FarmConfig[] = [
     tokenSymbol: 'OASIS',
     tokenAddresses: {
       97: '',
-      56: '',  // OASIS mainnet to be added 
+      56: '0xFeDb215c9c168456E3E4031F5B4e32DdaeF65f58',  // OASIS mainnet to be added 
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -227,7 +227,7 @@ const farms: FarmConfig[] = [
     tokenSymbol: 'OASIS',
     tokenAddresses: {
       97: '',
-      56: '',  // OASIS mainnet contract to be added
+      56: '0xFeDb215c9c168456E3E4031F5B4e32DdaeF65f58',  // OASIS mainnet contract to be added
     },
     quoteTokenSymbol: QuoteToken.USDT,
     quoteTokenAdresses: contracts.usdt,
@@ -243,7 +243,7 @@ const farms: FarmConfig[] = [
     tokenSymbol: 'OASIS',
     tokenAddresses: {
       97: '',
-      56: '',  // OASIS mainnet contract to be added
+      56: '0xFeDb215c9c168456E3E4031F5B4e32DdaeF65f58',  // OASIS mainnet contract to be added
     },
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,
