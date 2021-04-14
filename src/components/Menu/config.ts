@@ -70,7 +70,7 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Blog',
-        href: 'https://defioasis.medium.com/',
+        href: 'https://medium.com/@defioasis',
       },
     ],
   },
