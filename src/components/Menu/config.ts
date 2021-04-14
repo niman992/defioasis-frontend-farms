@@ -12,12 +12,12 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.defioasis.finance/#/swap?outputCurrency=0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56 ', // OASIS mainnet address to be added
+        href: 'https://exchange.defioasis.finance/#/swap?outputCurrency=0xFeDb215c9c168456E3E4031F5B4e32DdaeF65f58 ', // OASIS mainnet address to be added
       },
       {
         label: 'Liquidity',
         href:
-          'https://exchange.defioasis.finance/#/add/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56/ ', // OASIS mainnet address to be added
+          'https://exchange.defioasis.finance/#/add/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56/0xFeDb215c9c168456E3E4031F5B4e32DdaeF65f58 ', // OASIS mainnet address to be added
       },
     ],
   },
@@ -52,7 +52,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/ ', // OASIS mainnet address to be added
+        href: 'https://pancakeswap.info/token/0xFeDb215c9c168456E3E4031F5B4e32DdaeF65f58 ', // OASIS mainnet address to be added
       },
     ],
   },
@@ -67,6 +67,10 @@ const config: MenuEntry[] = [
       {
         label: 'Docs',
         href: 'https://defioasis.gitbook.io/defi-oasis/',
+      },
+      {
+        label: 'Roadmap',
+        href: 'https://defioasis.gitbook.io/defi-oasis/core/roadmap',
       },
       {
         label: 'Blog',
