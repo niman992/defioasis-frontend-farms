@@ -8,7 +8,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'OASIS-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '',  // OASIS-BUSD address to be added 
+      56: '0x38d36762d325e0f76cab70757b48fe6ae2aff8e7',  // OASIS-BUSD address to be added 
     },
     tokenSymbol: 'OASIS',
     tokenAddresses: {
@@ -24,7 +24,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'OASIS-BNB LP',
     lpAddresses: {
       97: '',
-      56: '',  // OASIS-BNB address to be added 
+      56: '0xbd076da4fc65da6eba1757fce48b8e535c5fb120',  // OASIS-BNB address to be added 
     },
     tokenSymbol: 'OASIS',
     tokenAddresses: {
@@ -155,7 +155,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'OASIS',
     lpAddresses: {
       97: '',
-      56: '',  // OASIS-BUSD address to be added 
+      56: '0x38d36762d325e0f76cab70757b48fe6ae2aff8e7',  // OASIS-BUSD address to be added 
     },
     tokenSymbol: 'OASIS',
     tokenAddresses: {
@@ -172,7 +172,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BUSD',
     lpAddresses: {
       97: '',
-      56: '',  // OASIS-BUSD contract to be added (BUSD-BUSD will ignore)
+      56: '0x38d36762d325e0f76cab70757b48fe6ae2aff8e7',  // OASIS-BUSD contract to be added (BUSD-BUSD will ignore)
     },
     tokenSymbol: 'BUSD',
     tokenAddresses: {
@@ -222,7 +222,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'OASIS-USDT LP',
     lpAddresses: {
       97: '',
-      56: '',  // OASIS-USDT contract to be added
+      56: '0xeaebeaf73a7d4b33fb4d5147396c02b81ce0868e',  // OASIS-USDT contract to be added
     },
     tokenSymbol: 'OASIS',
     tokenAddresses: {
@@ -238,7 +238,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'OASIS-USDC LP',
     lpAddresses: {
       97: '',
-      56: '',  // OASIS-USDC contract to be added
+      56: '0x790806ff9c15e2f8c315c89a3159c22e6acebb08',  // OASIS-USDC contract to be added
     },
     tokenSymbol: 'OASIS',
     tokenAddresses: {
