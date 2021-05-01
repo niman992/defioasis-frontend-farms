@@ -1,6 +1,6 @@
 export default {
   cake: {
-    56: '0x8f0f0986063600413060E22B6f8cdB964cA7e58D', // OASIS mainnet to be added
+    56: ''0xFeDb215c9c168456E3E4031F5B4e32DdaeF65f58', // OASIS mainnet to be added
     97: '',
   },
   masterChef: {
