@@ -4,7 +4,7 @@ export default {
     97: '',
   },
   masterChef: {
-    56: '0x8b7cC2575aDdd29C87a4291B9A2e6c548556f082', // masterchef contract address to be added
+    56: '0xC72333f922e223C1C8582e30af78B356B676B0A6', // masterchef contract address to be added
     97: '',
   },
   wbnb: {
