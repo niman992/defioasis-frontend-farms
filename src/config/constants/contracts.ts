@@ -1,10 +1,10 @@
 export default {
   cake: {
-    56: '0xFeDb215c9c168456E3E4031F5B4e32DdaeF65f58', // OASIS mainnet to be added
+    56: '0xc7091aa18598b87588e37501b6ce865263cd67ce', // OASIS mainnet to be added
     97: '',
   },
   masterChef: {
-    56: '0xC72333f922e223C1C8582e30af78B356B676B0A6', // masterchef contract address to be added
+    56: '0x398d648c58ccf6337dded3dac7cbd7970ae474b8', // masterchef contract address to be added
     97: '',
   },
   wbnb: {
